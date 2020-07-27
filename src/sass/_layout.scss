@@ -1,0 +1,13 @@
+body {
+  box-sizing: border-box;
+  background-color: $background-color;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(21, auto);
+  grid-template-rows: repeat(28, auto);
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-color;
+}
