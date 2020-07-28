@@ -3,8 +3,9 @@
   grid-row: 1/2;
   background-color: white;
   width: 100%;
-  position: fixed;
+  position: sticky;
   z-index: 1;
+  top: 0;
 }
 
 .nav-top {

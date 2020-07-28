@@ -3,6 +3,9 @@
   grid-column: 1/5;
   background-color: #222f3e;
   z-index: 2;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 
   .nav-top {
     display: flex;

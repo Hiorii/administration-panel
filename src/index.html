@@ -7,8 +7,8 @@
   <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <div class="grid-wrapper">
+<body>  
+  <div class="grid-wrapper">  
     <div class="top-bar">
       <div class="navigation nav-top">
         <ul class="navigation-list nav-list-top">
@@ -55,43 +55,43 @@
       <div class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="#general">
               <img class="icons" src="./images/icons/general.svg" alt="">
               General
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="#details">
               <img class="icons" src="./images/icons/details.svg" alt="">
               Details
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="#links">
               <img class="icons" src="./images/icons/links.svg" alt="">
               Links
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="banners">
               <img class="icons" src="./images/icons/banners.svg" alt="">
               Banners
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="personal">
               <img class="icons" src="./images/icons/personaldata.svg" alt="">
               Personal Data
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="payout">
               <img class="icons" src="./images/icons/payout.svg" alt="">
               Payout
             </a>
           </li>
           <li class="navigation-item">
-            <a href="">
+            <a class="side-links" href="postback">
               <img class="icons" src="./images/icons/postback.svg" alt="">
               Postback
             </a>
@@ -106,8 +106,34 @@
           Bartosz J.
         </a>
       </div>   
+    </div>    
+  
+    <div id='pages'>
+      <section id="general">
+        <div class="general-wrapper"></div>
+      </section>
+      <section id="details">
+        <div class="details-wrapper"></div>
+      </section>
+      <section id="links">
+        <div class="links-wrapper"></div>
+      </section>
+      <section id="banners">
+        <div class="banners-wrapper"></div>
+      </section>
+      <section id="personal">
+        <div class="personal-wrapper"></div>
+      </section>
+      <section id="payout">
+        <div class="payout-wrapper"></div>
+      </section>
+      <section id="postback">
+        <div class="postback-wrapper"></div>
+      </section>
     </div>
-
+  </div>
+  
+  <script id="wrapper-general" type="text/html">    
     <div class="general">
       <h3>general statistic</h3>
       <hr>
@@ -153,8 +179,7 @@
         </div>
         <img src="./images/chart.jpeg" alt="">       
       </div>
-      <div class="data-char">   
-      </div>
+      <div class="data-char"></div>
     </div>
 
     <div class="links">
@@ -203,8 +228,122 @@
         </div>
       </div>
     </div>
-</div>
+  </script>
 
-<script src="./js/components/sideBar.js" type="module"></script>
+  <script id="wrapper-details" type="text/html">  
+    <h1>SIEMA details</h1>
+  </script>
+
+  <script id="wrapper-links" type="text/html">  
+    <div class="links">
+      <div class="links-inner">
+        <h3>links</h3>
+        <hr>
+        <div class="btn-container">
+          <button class="btn-link btn-link-1">+ add new</button>
+        </div>
+        <div class="links">        
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn-link btn-link-2">+ add new</button>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script id="wrapper-banners" type="text/html">  
+    <div class="links">
+      <div class="links-inner">
+        <h3>banners</h3>
+        <hr>
+        <div class="btn-container">
+          <button class="btn-link btn-link-1">+ add new</button>
+        </div>
+        <div class="links">        
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+          <div class="single-link">
+            <p>Home page</p>
+            <a href="http://www.homepage.com">http://www.homepage.com</a>
+            <div class="link-icons">
+              <img class="icons" src="./images/icons/links.svg" alt="link">
+              <img class="icons"src="./images/icons/trash.svg" alt="trash">
+            </div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn-link btn-link-2">+ add new</button>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script id="wrapper-personal" type="text/html">  
+    <h1>SIEMA personal</h1>
+  </script>
+
+  <script id="wrapper-payout" type="text/html">  
+    <h1>SIEMA payout</h1>
+  </script>
+
+  <script id="wrapper-postback" type="text/html">  
+    <h1>SIEMA postback</h1>
+  </script>
+
+<script src="./js/app.js" type="module"></script>
 </body>
 </html>
