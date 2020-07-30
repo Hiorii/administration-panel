@@ -1,0 +1,43 @@
+.personal-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  hr {
+    @include horizontal-line;
+
+    width: 100%;
+  }
+
+  form {    
+    width: 100%;    
+  }
+
+  .form-inner {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem;
+  }
+
+  input {
+    background: transparent;
+    border: 1px solid #DCDCDC;
+    height: 1.9rem;
+    width: 60%;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+

@@ -7,7 +7,7 @@
 
 @mixin horizontal-line {
   margin: 2rem 0;
-  border-top: .5px solid $links-color;
+  border-top: .5px solid $background-color;
   border-bottom: 0px solid transparent;
   width: 100%;
 }

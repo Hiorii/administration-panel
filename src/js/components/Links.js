@@ -14,8 +14,6 @@ class Links{
     thisLinks.dom = {};
     this.dom.wrapper = linksElement;
     this.dom.wrapper.innerHTML = generatedHTML;
-
-    console.log(generatedHTML);
   }
 }
 

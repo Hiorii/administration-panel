@@ -2,6 +2,8 @@ import {select, classNames} from '../js/settings.js';
 import General from './components/General.js';
 import Links from './components/Links.js';
 import Banners from './components/Banners.js';
+import Personal from './components/Personal.js';
+import Details from './components/Details.js';
 
 const app = {
   init: function(){
@@ -11,6 +13,8 @@ const app = {
     thisApp.initGeneral();
     thisApp.initLinks();
     thisApp.initBanners();
+    thisApp.initPersonal();
+    thisApp.initDetails();
   },
   initPages: function(){
     const thisApp = this;
@@ -81,6 +85,20 @@ const app = {
     const bannersElement = document.querySelector(select.containerOf.banners);
 
     thisApp.banners = new Banners(bannersElement);
+  },
+  initPersonal: function(){
+    const thisPersonal = this;
+
+    const personalElement = document.querySelector(select.containerOf.personal);
+
+    thisPersonal.personal = new Personal(personalElement);
+  },
+  initDetails: function(){
+    const thisDetails = this;
+
+    const detailsElement = document.querySelector(select.containerOf.details);
+
+    thisDetails.details = new Details(detailsElement);
   }  
 };
 
