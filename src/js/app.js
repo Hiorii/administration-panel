@@ -4,6 +4,9 @@ import Links from './components/Links.js';
 import Banners from './components/Banners.js';
 import Personal from './components/Personal.js';
 import Details from './components/Details.js';
+import Payout from './components/Payout.js';
+import Popup from './components/Popup.js';
+import SideBar from './components/sideBar.js';
 
 const app = {
   init: function(){
@@ -15,6 +18,9 @@ const app = {
     thisApp.initBanners();
     thisApp.initPersonal();
     thisApp.initDetails();
+    thisApp.initPayout();
+    thisApp.initPopouts();
+    thisApp.initSideBar();
   },
   initPages: function(){
     const thisApp = this;
@@ -99,6 +105,25 @@ const app = {
     const detailsElement = document.querySelector(select.containerOf.details);
 
     thisDetails.details = new Details(detailsElement);
+  },
+  initPayout: function(){
+    const thisPayout = this;
+
+    const payoutElement = document.querySelector(select.containerOf.payout);
+
+    thisPayout.payout = new Payout(payoutElement);
+  },
+  initPopouts: function(){
+    const thisPopup = this;
+
+    const popupElement = document.querySelector(select.containerOf.popup);
+
+    thisPopup.popup = new Popup(popupElement);
+  },
+  initSideBar: function(){
+    const thisSideBar = this;
+
+    thisSideBar.sidebar = new SideBar(); 
   }  
 };
 

@@ -1,14 +1,22 @@
 export const select = {
-  sideBar: {
-    hamburger: '.hamburger',
-    navigation: '.navigation',
-  },
+  components: {
+    sideBar: {
+      sideBar: '.side-bar',
+      hamburger: '.hamburger',
+      navigation: '.navigation',
+    },
+    topBar: {
+      topBar: '.top-bar',
+    }
+  },  
   templateOf: {
     general: 'wrapper-general',
     links: 'wrapper-links',
     banners: 'wrapper-banners',
     personal: 'wrapper-personal',
     details: 'wrapper-details',
+    payout: 'wrapper-payout',
+    popup: 'wrapper-popup',
   },  
   containerOf: {
     pages: '#pages',
@@ -17,6 +25,8 @@ export const select = {
     banners: '.banners-wrapper',
     personal: '.personal-wrapper',
     details: '.details-wrapper',
+    payout: '.payout-wrapper',
+    popup: '.popup-wrapper',
   },
   navLinks: {
     general: '.side-links',
@@ -36,4 +46,6 @@ export const template = {
   banners: document.getElementById(select.templateOf.banners).innerHTML,
   personal: document.getElementById(select.templateOf.personal).innerHTML,
   details: document.getElementById(select.templateOf.details).innerHTML,
+  payout: document.getElementById(select.templateOf.payout).innerHTML,
+  popup: document.getElementById(select.templateOf.popup).innerHTML,
 };

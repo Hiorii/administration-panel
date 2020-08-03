@@ -1,0 +1,207 @@
+.popup {  
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .popup-inner {
+    width: auto;
+    height: auto;    
+  }
+}
+
+.popup-manager {
+  display: none;
+}
+
+.popup-exit {
+  display: none;
+}
+
+.popup-login {
+  display: none;
+}
+
+
+.popup-active {
+  visibility: visible;
+}
+
+.manager-active {
+  display: block !important;
+}
+
+.exit-active {
+  display: block !important;
+}
+
+.login-active {
+  display: block !important;
+}
+
+.popup-manager {
+  width: 70vw;
+  height: auto;
+
+  .manager-poput-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  hr {
+    @include horizontal-line;
+    
+    margin: 1.3rem 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  } 
+
+  .icons {
+    @include icons;
+
+    margin-top: 1rem;
+  }
+
+  .manager-popup-data {
+    display: flex;
+    align-items: center;
+    color: $links-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+    img {
+      width: 5rem;
+      border-radius: 50%;
+      margin: 0 0.8rem 0 1rem;
+    }
+
+    .manager-data-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      p {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+        margin: 0 0 .5rem 0;
+      }
+
+      .manager-status {
+        font-size: .9rem;
+        background-color: green;
+        color: white;
+        padding: .1rem;
+      }
+    }
+  }
+
+  .chat-view {    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .chat-view-inner {
+      display: flex;
+      width: 100%;
+      margin: 1rem;
+    }
+
+    .chat-view-inner-even {
+      justify-content: flex-end; 
+    }
+
+    .chat {      
+      padding: .5rem;
+      width: 40%;
+    }
+
+    .chat-odd {
+      background-color: $background-color;
+      color: black;
+    }
+
+    .chat-even {
+      background-color: $links-color;
+      color: white;      
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .chat-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      width: 80%;
+      border: $border;
+      padding: 0.6rem;
+      margin-right: 1rem;
+    }    
+  }
+}
+
+.popup-login {
+  width: 70vw;
+  height: auto;
+
+  .login-poput-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  hr {
+    @include horizontal-line;
+    
+    margin: 1.3rem 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  } 
+
+  .icons {
+    @include icons;
+
+    margin-top: 1rem;
+  }
+
+  form {
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    input {
+      width: 30%;
+      border: $border;
+      padding: 0.6rem;
+      margin-right: 1rem;
+    } 
+  }
+}

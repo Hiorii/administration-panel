@@ -9,6 +9,8 @@
 /*@import "components/form_field";*/
 @import "components/list";
 @import "components/btn";
+@import "components/table";
+@import "components/popup";
 
 /* Sections */
 /*@import "section/registration_form";*/
@@ -18,7 +20,8 @@
 @import "sections/links";
 @import "sections/personal";
 @import "sections/details";
-
+@import "sections/payout";
+@import "sections/popouts/manager";
 
 /* Pages / Views */
 @import "pages/pages";

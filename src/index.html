@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>  
-  <div class="grid-wrapper">  
+  <div class="grid-wrapper">    
     <div class="top-bar">
       <div class="navigation nav-top">
         <ul class="navigation-list nav-list-top">
@@ -17,25 +17,25 @@
             </div>     
           </li>          
           <li class="navigation-item nav-item-top" id="top1">       
-            <a href="">
+            <a class="side-links" href="">
               <img class="icons" src="./images/icons/wallet.svg" alt="">
-              $1,500.00
-              <img class="icons" src="./images/icons/arrow-down.svg" alt="">
+              <p>$1,500.00</p>
+              <img id="arrow-down" class="icons" src="./images/icons/arrow-down.svg" alt="">
             </a>
           </li>
           <li class="navigation-item nav-item-top" id="top2">
-            <a href="">
+            <a class="side-links" href="">
               <img class="icons" src="./images/icons/notification.svg" alt="">            
             </a>
           </li>
           <li class="navigation-item nav-item-top" id="top3">
-            <a href="">
+            <a class="side-links login-link" href="">
               <img class="icons" src="./images/icons/profile.svg" alt="">
-              Bartosz Janiak            
+              <p>Bartosz Janiak</p>
             </a>
           </li>
           <li class="navigation-item nav-item-top" id="top4">
-            <a href="">
+            <a class="side-links exit-link" href="">
               <img class="icons" src="./images/icons/quit.svg" alt="">            
             </a>
           </li>
@@ -46,11 +46,13 @@
     <div class="side-bar">
       <div class="nav-top">
         <h3 class='logo'>Just do it</h3>
-        <button class="hamburger">
-          <span class="hamburger__box">
-            <span class="hamburger__inner"></span>
-          </span>
-        </button>
+        <div class="hamburger-main">
+          <button class="hamburger">
+            <span class="hamburger__box">
+              <span class="hamburger__inner"></span>
+            </span>
+          </button>
+          </div>
       </div>      
       <div class="navigation">
         <ul class="navigation-list">
@@ -73,25 +75,25 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="side-links" href="banners">
+            <a class="side-links" href="#banners">
               <img class="icons" src="./images/icons/banners.svg" alt="">
               Banners
             </a>
           </li>
           <li class="navigation-item">
-            <a class="side-links" href="personal">
+            <a class="side-links" href="#personal">
               <img class="icons" src="./images/icons/personaldata.svg" alt="">
               Personal Data
             </a>
           </li>
           <li class="navigation-item">
-            <a class="side-links" href="payout">
+            <a class="side-links" href="#payout">
               <img class="icons" src="./images/icons/payout.svg" alt="">
               Payout
             </a>
           </li>
           <li class="navigation-item">
-            <a class="side-links" href="postback">
+            <a class="side-links" href="#postback">
               <img class="icons" src="./images/icons/postback.svg" alt="">
               Postback
             </a>
@@ -101,8 +103,8 @@
       </div>        
       <div class="manager">
         <h4>your manager</h4>
-        <a href="">
-          <img src="./images/icons/manager.jpeg" alt="">
+        <a class="side-links manager-link" href="#popup">
+          <img src="./images/icons/manager.jpeg" alt="menager_logo">
           Bartosz J.
         </a>
       </div>   
@@ -127,8 +129,8 @@
       <section id="payout">
         <div class="payout-wrapper"></div>
       </section>
-      <section id="postback">
-        <div class="postback-wrapper"></div>
+      <section id="popup">
+        <div class="popup-wrapper"></div>
       </section>
     </div>
   </div>
@@ -242,136 +244,140 @@
         </form>
         <hr>
         <table>
-          <tr class="title-row">          
-            <th><a href="">Tracker name<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Initiated date<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Visits<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Unique<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Signups<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">FTD<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Depositors<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Deposits($)<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Payout<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Turnover<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-            <th><a href="">Deal<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
-          </tr>  
-          <tr>
-            <td><a href="">bar/jan_check</a></td>
-            <td><a href="">17/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">34,425.00</a></td>
-            <td><a href="">234.00</a></td>
-            <td><a href="">421,342.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/ren_check</a></td>
-            <td><a href="">15/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">29,432.00</a></td>
-            <td><a href="">941.00</a></td>
-            <td><a href="">784,321.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/jan_check</a></td>
-            <td><a href="">17/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">34,425.00</a></td>
-            <td><a href="">234.00</a></td>
-            <td><a href="">421,342.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/ren_check</a></td>
-            <td><a href="">15/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">29,432.00</a></td>
-            <td><a href="">941.00</a></td>
-            <td><a href="">784,321.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/jan_check</a></td>
-            <td><a href="">17/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">34,425.00</a></td>
-            <td><a href="">234.00</a></td>
-            <td><a href="">421,342.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/ren_check</a></td>
-            <td><a href="">15/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">29,432.00</a></td>
-            <td><a href="">941.00</a></td>
-            <td><a href="">784,321.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/jan_check</a></td>
-            <td><a href="">17/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">34,425.00</a></td>
-            <td><a href="">234.00</a></td>
-            <td><a href="">421,342.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
-          <tr>
-            <td><a href="">bar/ren_check</a></td>
-            <td><a href="">15/08/02(12:58)</a></td>
-            <td><a href="">232</a></td>
-            <td><a href="">114</a></td>
-            <td><a href="">12</a></td>
-            <td><a href="">6</a></td>
-            <td><a href="">3</a></td>
-            <td><a href="">29,432.00</a></td>
-            <td><a href="">941.00</a></td>
-            <td><a href="">784,321.00</a></td>
-            <td><a href="">cpl(200)</a></td>
-          </tr>
+          <thead>
+            <tr class="title-row">          
+              <th><a href="">Tracker name<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Initiated date<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Visits<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Unique<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Signups<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">FTD<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Depositors<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Deposits($)<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Payout<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Turnover<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Deal<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+            </tr>  
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="">bar/jan_check</a></td>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">234.00</a></td>
+              <td><a href="">421,342.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/ren_check</a></td>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">941.00</a></td>
+              <td><a href="">784,321.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/jan_check</a></td>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">234.00</a></td>
+              <td><a href="">421,342.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/ren_check</a></td>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">941.00</a></td>
+              <td><a href="">784,321.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/jan_check</a></td>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">234.00</a></td>
+              <td><a href="">421,342.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/ren_check</a></td>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">941.00</a></td>
+              <td><a href="">784,321.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/jan_check</a></td>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">234.00</a></td>
+              <td><a href="">421,342.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+            <tr>
+              <td><a href="">bar/ren_check</a></td>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">232</a></td>
+              <td><a href="">114</a></td>
+              <td><a href="">12</a></td>
+              <td><a href="">6</a></td>
+              <td><a href="">3</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">941.00</a></td>
+              <td><a href="">784,321.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+            </tr>
+          </tbody>
         </table>
         <div class="table-pages">
           <div class="table-pages-inner">
             <span><img class="icons" src="./images/icons/arrow-left.svg" alt="arrow-left"></span>
-            <span><a href="">1</a></span>
-            <span><a href="">2</a></span>
-            <span><a href="">3</a></span>
-            <span><a href="">4</a></span>
-            <span><a href="">5</a></span>
-            <span><a href="">6</a></span>
-            <span><a href="">7</a></span>
-            <span><a href="">8</a></span>
-            <span><a href="">9</a></span>
+            <span><a href="#details">1</a></span>
+            <span><a href="#details">2</a></span>
+            <span><a href="#details">3</a></span>
+            <span><a href="#details">4</a></span>
+            <span><a href="#details">5</a></span>
+            <span><a href="#details">6</a></span>
+            <span><a href="#details">7</a></span>
+            <span><a href="#details">8</a></span>
+            <span><a href="#details">9</a></span>
             <span><img class="icons" src="./images/icons/arrow-right.svg" alt="arrow-right"></span>
             </div>
         </div>
@@ -534,12 +540,169 @@
   </script>
 
   <script id="wrapper-payout" type="text/html">  
-    <h1>SIEMA payout</h1>
+    <div class="payout">
+      <div class="payout-inner">
+        <h3>payouts</h3>
+        <hr>
+        <form>
+          <input type="date">
+          <input type="date">
+          <button type="submit"><img class="icons" src="./images/icons/refresh.svg" alt=""></button>        
+        </form>
+        <hr>
+        <table>
+          <thead>
+            <tr class="title-row">          
+              <th><a href="">Date<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Amount($)<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Deal<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+              <th><a href="">Account<img class="icons" src="./images/icons/arrow-up-small.svg" alt="arrow_up"></a></th>
+            </tr>  
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">17/08/02(12:58)</a></td>
+              <td><a href="">34,425.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+            <tr>
+              <td><a href="">15/08/02(12:58)</a></td>
+              <td><a href="">29,432.00</a></td>
+              <td><a href="">cpl(200)</a></td>
+              <td><a href="">bank</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="table-pages">
+          <div class="table-pages-inner">
+            <span><img class="icons" src="./images/icons/arrow-left.svg" alt="arrow-left"></span>
+            <span><a href="#payout">1</a></span>
+            <span><a href="#payout">2</a></span>
+            <span><a href="#payout">3</a></span>
+            <span><a href="#payout">4</a></span>
+            <span><a href="#payout">5</a></span>
+            <span><a href="#payout">6</a></span>
+            <span><a href="#payout">7</a></span>
+            <span><a href="#payout">8</a></span>
+            <span><a href="#payout">9</a></span>
+            <span><img class="icons" src="./images/icons/arrow-right.svg" alt="arrow-right"></span>
+            </div>
+        </div>
+      </div>
+    </div>
   </script>
 
   <script id="wrapper-postback" type="text/html">  
     <h1>SIEMA postback</h1>
   </script>
+
+  <div id="wrapper-popup" type="text/html"> 
+    <div class="popup">
+      <div class="popup-inner">
+        <div class="popup-manager">
+          <div class="manager-poput-title">
+            <h3>online chat with your personal manager</h3>
+            <a class ="close" href=""><img class="icons" src="./images/icons/close.svg" alt="exit"></a>
+          </div>          
+          <hr>
+          <div class="manager-popup-data">
+            <img src="./images/icons/manager.jpeg" alt="menager_logo">
+            <div class="manager-data-inner">
+              <p>Bartosz Janiak</p>
+              <span class="manager-status">Online</span>
+            </div>
+          </div>
+          <hr>
+          <div class="chat-view">
+            <div class="chat-view-inner chat-view-inner-odd">
+              <div class="chat chat-odd">
+                <p>Hello. How can I help you?</p>
+              </div>
+            </div>
+            <div class="chat-view-inner chat-view-inner-even">
+              <div class="chat chat-even">
+                <p>Hello! I would like to know why am I so awesome?</p>
+              </div>
+            </div>
+            <div class="chat-view-inner chat-view-inner-odd">
+              <div class="chat chat-odd">
+                <p>You're not...</p>
+              </div>
+            </div>
+            <div class="chat-view-inner chat-view-inner-even">              
+              <div class="chat chat-even">
+                <p>:(</p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <form class="chat-form">
+            <input type="text" placeholder="Enter the message...">
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="popup-exit">
+          <h3>Do you really want to Quit?</h3>
+          <hr>
+          <div class="button-container">
+            <button type="submit">Cancel</button>
+            <button type="submit">Quit</button>
+          </div>
+        </div>
+        <div class="popup-login">
+          <div class="login-poput-title">
+            <h3>login</h3>
+            <a class ="close" href=""><img class="icons" src="./images/icons/close.svg" alt="exit"></a>
+          </div>
+          <hr>
+          <form>
+            <div class="form-container">
+              <input type="text" placeholder="login name">
+              <input type="password" placeholder="password">
+              <button type="submit">Enter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="./js/app.js" type="module"></script>
 </body>
