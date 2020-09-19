@@ -1,21 +1,23 @@
-import {template, select} from '../settings.js';
+import {select, template} from '../settings.js';
 
-class Personal{
-  constructor(personalElement){
+class Personal {
+  constructor(personalElement) {
     const thisPersonal = this;
 
     thisPersonal.render(personalElement);
     thisPersonal.validate();
   }
-  render(personalElement){
+
+  render(personalElement) {
     const thisPersonal = this;
 
     const generatedHTML = template.personal;
 
     thisPersonal.dom = {};
     thisPersonal.dom.wrapper = personalElement;
-    thisPersonal.dom.wrapper.innerHTML = generatedHTML;    
+    thisPersonal.dom.wrapper.innerHTML = generatedHTML;
   }
+
   validate() {
     const nameField = document.querySelector(select.components.personal.name);
     const surnameField = document.querySelector(select.components.personal.surname);
@@ -27,19 +29,19 @@ class Personal{
     const inputs = document.querySelectorAll(select.components.personal.input);
 
     /* Inputs */
-    for(let input of inputs) {
-      input.addEventListener('keyup', ()=> {
-        if(input.value !== '' && input.value.length >= 3){
+    for (let input of inputs) {
+      input.addEventListener('keyup', () => {
+        if (input.value !== '' && input.value.length >= 3) {
           input.style.border = '2px solid green';
           emailField.style.border = '1px solid #DCDCDC';
           rePasswordField.style.border = '1px solid #DCDCDC';
-          emailField.addEventListener('focusout', ()=>{
-            if(emailField.value.indexOf('@') < 0 || emailField.value.indexOf('.') < 0){
+          emailField.addEventListener('focusout', () => {
+            if (emailField.value.indexOf('@') < 0 || emailField.value.indexOf('.') < 0) {
               message.style.visibility = 'visible';
               message.innerHTML = 'Insert correct password!';
-              setTimeout(()=>{
+              setTimeout(() => {
                 message.style.visibility = 'hidden';
-              },4000);
+              }, 4000);
             } else {
               input.style.border = '2px solid green';
             }
@@ -53,15 +55,15 @@ class Personal{
     /* Password */
 
     rePasswordField.addEventListener('keyup', () => {
-      if(passwordField.value !== rePasswordField.value) {
-        rePasswordField.addEventListener('focusout', ()=>{
+      if (passwordField.value !== rePasswordField.value) {
+        rePasswordField.addEventListener('focusout', () => {
           message.style.visibility = 'visible';
           message.innerHTML = 'Password repeat must be the same!';
-          setTimeout(()=>{
+          setTimeout(() => {
             message.style.visibility = 'hidden';
           }, 4000);
         });
-      }else {
+      } else {
         rePasswordField.style.border = '2px solid green';
       }
     });
@@ -80,7 +82,7 @@ class Personal{
       ) {
         message.style.visibility = 'visible';
         message.innerHTML = 'Fulfill all required fields';
-        setTimeout(()=>{
+        setTimeout(() => {
           message.style.visibility = 'hidden';
         }, 4000);
         if (nameField.value === '') {

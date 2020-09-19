@@ -1,12 +1,13 @@
 import {template} from '../settings.js';
 
-class Postback{
-  constructor(detailsPostback){
+class Postback {
+  constructor(detailsPostback) {
     const thisPostback = this;
 
     thisPostback.render(detailsPostback);
   }
-  render(detailsPostback){
+
+  render(detailsPostback) {
     const thisPostback = this;
 
     const generatedHTML = template.postback;

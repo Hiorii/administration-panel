@@ -1,20 +1,22 @@
-.popup {  
+.popup {
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 9998;
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
 
   .popup-inner {
-    width: auto;
-    height: auto;    
+    width: 45rem;
+    height: auto;
+    margin: auto 1rem;
   }
 }
 
@@ -48,7 +50,7 @@
 }
 
 .popup-manager {
-  width: 70vw;
+  width: 100%;
   height: auto;
 
   .manager-poput-title {
@@ -60,14 +62,14 @@
 
   hr {
     @include horizontal-line;
-    
+
     margin: 1.3rem 0;
   }
 
   h3 {
     text-transform: uppercase;
     margin-bottom: 0;
-  } 
+  }
 
   .icons {
     @include icons;
@@ -111,7 +113,7 @@
     }
   }
 
-  .chat-view {    
+  .chat-view {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -124,10 +126,10 @@
     }
 
     .chat-view-inner-even {
-      justify-content: flex-end; 
+      justify-content: flex-end;
     }
 
-    .chat {      
+    .chat {
       padding: .5rem;
       width: 40%;
     }
@@ -139,7 +141,7 @@
 
     .chat-even {
       background-color: $links-color;
-      color: white;      
+      color: white;
     }
 
     p {
@@ -157,12 +159,12 @@
       border: $border;
       padding: 0.6rem;
       margin-right: 1rem;
-    }    
+    }
   }
 }
 
 .popup-login {
-  width: 70vw;
+  width: 100%;
   height: auto;
 
   .login-poput-title {
@@ -174,14 +176,14 @@
 
   hr {
     @include horizontal-line;
-    
+
     margin: 1.3rem 0;
   }
 
   h3 {
     text-transform: uppercase;
     margin-bottom: 0;
-  } 
+  }
 
   .icons {
     @include icons;
@@ -202,6 +204,17 @@
       border: $border;
       padding: 0.6rem;
       margin-right: 1rem;
-    } 
+    }
+  }
+}
+
+.popup-exit {
+  h3 {
+    text-align: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
   }
 }

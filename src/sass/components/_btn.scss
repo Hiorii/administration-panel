@@ -1,8 +1,18 @@
+*, *:focus, *:hover {
+  outline: none;
+}
+
 button {
+  appearance: none;
   width: 6rem;
   height: 2.5rem;
   background-color: #ffa801;
   border: none;
   border-radius: 8%;
   color: white;
+  transition: $transitions;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }

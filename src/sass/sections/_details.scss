@@ -5,7 +5,7 @@
 
   hr {
     @include horizontal-line;
-    
+
     margin: 1.3rem 0;
   }
 
@@ -34,14 +34,15 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(210deg) brightness(105%) contrast(103%);    }
+      filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(210deg) brightness(105%) contrast(103%);
+    }
   }
 
   .table-pages {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
-  
+
     a {
       text-decoration: none;
       color: $links-color;
@@ -51,7 +52,7 @@
     a:hover {
       background-color: $background-color;
     }
-    
+
     .icons {
       @include icons;
 
@@ -66,29 +67,48 @@
   }
 }
 
-@media
-  only screen 
-  and (max-width: 760px), (min-device-width: 768px) 
-  and (max-device-width: 1024px)  {
-  td:nth-of-type(1):before { content: "Tracker name"; }
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  td:nth-of-type(1):before {
+    content: "Tracker name";
+  }
 
-  td:nth-of-type(2):before { content: "Initiated date"; }
+  td:nth-of-type(2):before {
+    content: "Initiated date";
+  }
 
-  td:nth-of-type(3):before { content: "Visits"; }
+  td:nth-of-type(3):before {
+    content: "Visits";
+  }
 
-  td:nth-of-type(4):before { content: "Unique"; }
+  td:nth-of-type(4):before {
+    content: "Unique";
+  }
 
-  td:nth-of-type(5):before { content: "Signups"; }
+  td:nth-of-type(5):before {
+    content: "Signups";
+  }
 
-  td:nth-of-type(6):before { content: "FTD"; }
+  td:nth-of-type(6):before {
+    content: "FTD";
+  }
 
-  td:nth-of-type(7):before { content: "Depositors"; }
+  td:nth-of-type(7):before {
+    content: "Depositors";
+  }
 
-  td:nth-of-type(8):before { content: "Deposits($)"; }
+  td:nth-of-type(8):before {
+    content: "Deposits($)";
+  }
 
-  td:nth-of-type(9):before { content: "Payout"; }
+  td:nth-of-type(9):before {
+    content: "Payout";
+  }
 
-  td:nth-of-type(10):before { content: "Turnover"; }
-  
-  td:nth-of-type(11):before { content: "Deal"; }
+  td:nth-of-type(10):before {
+    content: "Turnover";
+  }
+
+  td:nth-of-type(11):before {
+    content: "Deal";
+  }
 }

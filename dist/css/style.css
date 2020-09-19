@@ -343,14 +343,15 @@ template {
 
 body {
   box-sizing: border-box;
+  font: "Open Sans", Helvetica, Arial;
   background-color: #DCDCDC;
 }
 
 .grid-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[21];
-      grid-template-columns: repeat(21, auto);
+  -ms-grid-columns: (5%)[20];
+      grid-template-columns: repeat(20, 5%);
   -ms-grid-rows: (auto)[28];
       grid-template-rows: repeat(28, auto);
   width: 100%;
@@ -806,6 +807,7 @@ table th:hover .icons {
   position: sticky;
   top: 0;
   height: 100vh;
+  width: 30vh;
 }
 
 .side-bar .nav-top {
@@ -990,7 +992,7 @@ table th:hover .icons {
 }
 
 .top-bar {
-  grid-column: 5/22;
+  grid-column: 4/21;
   grid-row: 1/2;
   background-color: white;
   width: 100%;
@@ -1263,7 +1265,7 @@ table th:hover .icons {
   grid-column: 1/20;
   justify-self: center;
   overflow: hidden;
-  margin: 0;
+  margin-left: auto;
 }
 
 .general .data_over {
@@ -1338,7 +1340,6 @@ table th:hover .icons {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  border-bottom: 0.1px solid #8395a7;
   border-top: 0.1px solid #8395a7;
 }
 
@@ -1373,8 +1374,7 @@ table th:hover .icons {
 }
 
 .links-inner .links .single-link:hover .icons:hover {
-  width: 1.3rem;
-  height: 1.3rem;
+  transform: scale(1.4);
   filter: invert(70%) sepia(27%) saturate(4479%) hue-rotate(358deg) brightness(103%) contrast(106%);
 }
 
@@ -1674,7 +1674,7 @@ table th:hover .icons {
 
 /* Pages / Views */
 #pages {
-  grid-column: 6/22;
+  grid-column: 5/21;
   grid-row: 2/29;
 }
 
@@ -1683,6 +1683,7 @@ table th:hover .icons {
   background-color: white;
   color: #8395a7;
   padding: 1rem;
+  height: auto;
 }
 
 .links-wrapper {

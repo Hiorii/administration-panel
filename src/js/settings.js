@@ -7,8 +7,28 @@ export const select = {
     },
     topBar: {
       topBar: '.top-bar',
+    },
+    details: {
+      dateInput: 'input[type="date"]',
+    },
+    personal: {
+      input: '.form-personal-data  .form-inner input',
+      name: '#name',
+      surname: '#surname',
+      email: '#email',
+      password: '#password',
+      rePassword: '#repeat',
+      message: '.message',
+      submit: '#submitPersonal',
+    },
+    popups: {
+      main: '.popup',
+      popupManager: '.popup-manager',
+      popupExit: '.popup-exit',
+      popupLogin: '.popup-login',
+      exitButton: '.close',
     }
-  },  
+  },
   templateOf: {
     general: 'wrapper-general',
     links: 'wrapper-links',
@@ -17,7 +37,8 @@ export const select = {
     details: 'wrapper-details',
     payout: 'wrapper-payout',
     popup: 'wrapper-popup',
-  },  
+    postback: 'wrapper-postback',
+  },
   containerOf: {
     pages: '#pages',
     general: '.general-wrapper',
@@ -27,9 +48,11 @@ export const select = {
     details: '.details-wrapper',
     payout: '.payout-wrapper',
     popup: '.popup-wrapper',
+    postback: '.postback-wrapper',
   },
   navLinks: {
     general: '.side-links',
+    popups: '.popup-links',
   }
 };
 export const classNames = {
@@ -37,7 +60,7 @@ export const classNames = {
     active: 'active',
   },
   pages: {
-    active:  'active',
+    active: 'active',
   }
 };
 export const template = {
@@ -48,4 +71,5 @@ export const template = {
   details: document.getElementById(select.templateOf.details).innerHTML,
   payout: document.getElementById(select.templateOf.payout).innerHTML,
   popup: document.getElementById(select.templateOf.popup).innerHTML,
+  postback: document.getElementById(select.templateOf.postback).innerHTML,
 };

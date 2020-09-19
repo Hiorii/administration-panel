@@ -28,7 +28,7 @@ export const select = {
       popupLogin: '.popup-login',
       exitButton: '.close',
     }
-  },  
+  },
   templateOf: {
     general: 'wrapper-general',
     links: 'wrapper-links',
@@ -38,7 +38,7 @@ export const select = {
     payout: 'wrapper-payout',
     popup: 'wrapper-popup',
     postback: 'wrapper-postback',
-  },  
+  },
   containerOf: {
     pages: '#pages',
     general: '.general-wrapper',
@@ -60,7 +60,7 @@ export const classNames = {
     active: 'active',
   },
   pages: {
-    active:  'active',
+    active: 'active',
   }
 };
 export const template = {

@@ -1,42 +1,43 @@
-import  {template, select} from '../settings.js';
+import {select, template} from '../settings.js';
 
-class Popup{
-  constructor(popupElement){
-    const thisPopup  = this;
+class Popup {
+  constructor(popupElement) {
+    const thisPopup = this;
 
     thisPopup.render(popupElement);
     // thisPopup.closingPop();
     // thisPopup.check();
   }
-  render(popupElement){
+
+  render(popupElement) {
     const thisPopup = this;
 
-    const generatedHTML = template.popup;    
+    const generatedHTML = template.popup;
     const popupMain = document.querySelector(select.components.popups.main);
     const visablePopupManager = document.querySelector(select.components.popups.popupManager);
     const visablePopupExit = document.querySelector(select.components.popups.popupExit);
     const visablePopupLogin = document.querySelector(select.components.popups.popupLogin);
     const linkList = document.querySelectorAll(select.navLinks.popups);
 
-    thisPopup.dom  = {};
+    thisPopup.dom = {};
     thisPopup.dom.wrapper = popupElement;
     thisPopup.dom.wrapper.innerHTML = generatedHTML;
-    
-    for(let singleLink of linkList){
-      singleLink.addEventListener('click', function(e){
+
+    for (let singleLink of linkList) {
+      singleLink.addEventListener('click', function (e) {
         const clickedElement = this;
-       
-        e.preventDefault();       
-       
-        if(clickedElement.classList.contains('manager-link')){
+
+        e.preventDefault();
+
+        if (clickedElement.classList.contains('manager-link')) {
           popupMain.classList.add('popup-active');
           visablePopupManager.classList.add('manager-active');
           thisPopup.closingPop(popupMain, visablePopupManager);
-        } else if(clickedElement.classList.contains('exit-link')){          
+        } else if (clickedElement.classList.contains('exit-link')) {
           popupMain.classList.add('popup-active');
           visablePopupExit.classList.add('exit-active');
           thisPopup.closingPop(popupMain, visablePopupExit);
-        } else if(clickedElement.classList.contains('login-link')) {
+        } else if (clickedElement.classList.contains('login-link')) {
           popupMain.classList.add('popup-active');
           visablePopupLogin.classList.add('login-active');
           thisPopup.closingPop(popupMain, visablePopupLogin);
@@ -44,6 +45,7 @@ class Popup{
       });
     }
   }
+
   closingPop(popupMain, currentActive) {
     const closeButton = document.querySelectorAll(select.components.popups.exitButton);
 
@@ -52,9 +54,9 @@ class Popup{
       data.classList.remove('.popup-active');
     }
 
-    closeButton.forEach(function(btn) {
+    closeButton.forEach(function (btn) {
       console.log(btn);
-      btn.addEventListener('click', function(e) {
+      btn.addEventListener('click', function (e) {
         e.preventDefault();
         closeModal(popupMain);
         currentActive.classList.remove('manager-active');
@@ -63,9 +65,9 @@ class Popup{
       });
     });
 
-    popupMain.addEventListener('click', function(e) {
+    popupMain.addEventListener('click', function (e) {
 
-      if(e.target === this) {
+      if (e.target === this) {
         closeModal(popupMain);
         currentActive.classList.remove('manager-active');
         currentActive.classList.remove('exit-active');
@@ -73,8 +75,8 @@ class Popup{
       }
     });
 
-    document.addEventListener('keyup', function(e) {
-      if(e.keyCode === 27) {
+    document.addEventListener('keyup', function (e) {
+      if (e.keyCode === 27) {
         closeModal(popupMain);
         currentActive.classList.remove('manager-active');
         currentActive.classList.remove('exit-active');
@@ -82,6 +84,7 @@ class Popup{
       }
     });
   }
+
   // check() {
   //   const ddd = document.querySelector('.omglol');
   //   const popupMain = document.querySelector(select.components.popups.main);

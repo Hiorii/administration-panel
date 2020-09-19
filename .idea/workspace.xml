@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4259ab0-9f3c-4342-b6db-6396546dcaea" name="Default Changelist" comment="Format code. Fixed sidebar width. Fixed banners borders. Fixed banners icons hover effect.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-down-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-down-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-up-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-up-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/banners.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/banners.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/details.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/details.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/general.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/general.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/links.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/links.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/negative.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/negative.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/notification.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/notification.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/password.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/password.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/payout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/payout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/personaldata.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/personaldata.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/positive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/positive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/postback.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/postback.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/quit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/quit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/refresh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/show.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/show.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/url.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/url.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/wallet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/wallet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Banners.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Banners.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/General.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/General.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Payout.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Payout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Postback.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Postback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/sideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styleguide.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styleguide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/hamburgers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/hamburgers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dx-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dx-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dx.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dx.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dxy-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dxy-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dxy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dxy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dy-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dy-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_3dy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_arrowalt-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_arrowalt-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_arrowalt.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_arrowalt.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_collapse-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_collapse-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_collapse.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_collapse.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_emphatic-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_emphatic-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_emphatic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_emphatic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_minus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_minus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spin-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spin-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spring-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spring-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spring.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_spring.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_squeeze.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_squeeze.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_stand-r.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_stand-r.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_stand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/_sass/hamburgers/types/_stand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/bs-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/bs-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/config.postcss.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/config.postcss.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/dist/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/dist/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/dist/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/dist/hamburgers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/eyeglass-exports.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/eyeglass-exports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/hamburgers-master/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/hamburgers-master/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Banners.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Banners.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/General.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/General.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Payout.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Payout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/Postback.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/Postback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/sideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-down-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-down-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-up-small.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-up-small.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/banners.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/banners.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/details.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/details.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/general.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/general.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/links.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/links.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/message.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/message.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/negative.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/negative.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/notification.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/notification.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/password.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/password.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/payout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/payout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/personaldata.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/personaldata.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/positive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/positive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/postback.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/postback.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/quit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/quit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/refresh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/show.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/show.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/url.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/url.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons/wallet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons/wallet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Banners.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Banners.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/General.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/General.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Payout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Payout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/sideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/pages/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/pages/_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_payout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_payout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_personal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_personal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_side-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_side-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/sections/_top-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/sections/_top-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styleguide.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/styleguide.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fdhaxrdkdGVif9aQ87rRrqQAMc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sass/sections" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4259ab0-9f3c-4342-b6db-6396546dcaea" name="Default Changelist" comment="" />
+      <created>1596553944594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596553944594</updated>
+      <workItem from="1596553946157" duration="5623000" />
+      <workItem from="1596569171531" duration="3323000" />
+      <workItem from="1596733333518" duration="12572000" />
+      <workItem from="1596824656344" duration="19401000" />
+      <workItem from="1597087173810" duration="5926000" />
+      <workItem from="1597165799872" duration="4950000" />
+      <workItem from="1597496601039" duration="162000" />
+      <workItem from="1597700483496" duration="127000" />
+      <workItem from="1600519241110" duration="3450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add menu bar functionality(not finished)" />
+    <MESSAGE value="Format code. Fixed sidebar width. Fixed banners borders. Fixed banners icons hover effect." />
+    <option name="LAST_COMMIT_MESSAGE" value="Format code. Fixed sidebar width. Fixed banners borders. Fixed banners icons hover effect." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2419" y="476" width="800" height="706" key="#Plugins" timestamp="1596568072736">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2419" y="476" width="800" height="706" key="#Plugins/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596568072736" />
+    <state x="2169" y="668" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596843709680">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2169" y="668" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596843709680" />
+    <state x="2281" y="435" width="972" height="850" key="CommitChangelistDialog2" timestamp="1596558436353">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2281" y="435" width="972" height="850" key="CommitChangelistDialog2/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596558436353" />
+    <state x="2213" y="677" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597496760434">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2213" y="677" width="424" height="478" key="FileChooserDialogImpl/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1597496760434" />
+    <state width="1011" height="316" key="GridCell.Tab.0.bottom" timestamp="1596748441158">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state width="1011" height="316" key="GridCell.Tab.0.bottom/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596748441158" />
+    <state width="1011" height="316" key="GridCell.Tab.0.center" timestamp="1596748441158">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state width="1011" height="316" key="GridCell.Tab.0.center/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596748441158" />
+    <state width="1011" height="316" key="GridCell.Tab.0.left" timestamp="1596748441158">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state width="1011" height="316" key="GridCell.Tab.0.left/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596748441158" />
+    <state width="1011" height="316" key="GridCell.Tab.0.right" timestamp="1596748441158">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state width="1011" height="316" key="GridCell.Tab.0.right/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596748441158" />
+    <state x="2138" y="451" key="SettingsEditor" timestamp="1596558337250">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2138" y="451" key="SettingsEditor/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596558337250" />
+    <state x="2475" y="654" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597700499189">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2475" y="654" width="800" height="522" key="Vcs.Push.Dialog.v2/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1597700499189" />
+    <state x="2208" y="835" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596553997765">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2208" y="835" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596553997765" />
+    <state x="2377" y="568" width="672" height="678" key="search.everywhere.popup" timestamp="1596558442612">
+      <screen x="1920" y="339" width="1920" height="1200" />
+    </state>
+    <state x="2377" y="568" width="672" height="678" key="search.everywhere.popup/1920.339.1920.1200/0.459.1920.1080/3840.0.1200.1920@1920.339.1920.1200" timestamp="1596558442612" />
+  </component>
+</project>

@@ -1,5 +1,5 @@
-.top-bar { 
-  grid-column: 5/22;
+.top-bar {
+  grid-column: 4/21;
   grid-row: 1/2;
   background-color: white;
   width: 100%;
@@ -38,7 +38,7 @@
   }
 
   #top1 {
-    grid-column: 5/7;    
+    grid-column: 5/7;
   }
 
   #top2 {
@@ -68,7 +68,7 @@
   }
 }
 
-.top-bar-active { 
+.top-bar-active {
   width: 5rem;
   background-color: white;
   position: absolute;
@@ -82,33 +82,50 @@
 
   .nav-list-top {
     display: none !important;
-  } 
+  }
 }
 
-.nav-list-top-active-in { 
-  width: 5rem;
-  background-color: white;
-  position: fixed;
-  z-index: 5;
-  left: 0;
-  bottom: 0;
-  top: auto;
-  display: block;
-  float: left;
-  background: transparent;
+@media only screen and (max-width: 820px) {
+  .top-bar {
+    width: 5rem;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    display: block;
+    float: left;
+    background: transparent;
 
-  .nav-list-top {
-    display: block !important;
-    width: 15rem;
-  } 
-
-  .nav-item-top {    
-    width: auto;
-    background-color: white;
-    border-bottom: $border;
+    .nav-list-top {
+      display: none !important;
+    }
   }
 
-  .nav-item-top:first-child {
+  .nav-list-top-active-in {
+    width: 5rem;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    display: block;
+    float: left;
     background: transparent;
+
+    .nav-list-top {
+      display: block !important;
+      width: 13rem;
+    }
+
+    .nav-item-top {
+      width: auto;
+      background-color: white;
+      border-bottom: $border;
+    }
+
+    .nav-item-top:first-child {
+      background: transparent;
+    }
   }
 }

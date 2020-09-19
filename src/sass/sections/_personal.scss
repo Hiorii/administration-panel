@@ -7,6 +7,21 @@
   h3 {
     width: 100%;
     text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  .message {
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    width: auto;
+    height: 1rem;
+    background: rgba(246, 128, 128, 0.5);
+    padding: 1rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    color: #c82525;
+    font-weight: bolder;
   }
 
   hr {
@@ -15,8 +30,8 @@
     width: 100%;
   }
 
-  form {    
-    width: 100%;    
+  form {
+    width: 100%;
   }
 
   .form-inner {
@@ -41,3 +56,19 @@
   }
 }
 
+@media only screen and (max-width: 680px) {
+  .form-inner {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    label {
+      width: 100%;
+    }
+
+    input {
+      width: 100%;
+    }
+  }
+}

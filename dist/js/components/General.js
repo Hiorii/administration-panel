@@ -2,22 +2,24 @@
 
 import {template} from '../settings.js';
 
-class  General{
-  constructor(generalElement){
+class General {
+  constructor(generalElement) {
     const thisGeneral = this;
 
     thisGeneral.render(generalElement);
     thisGeneral.graph();
   }
-  render(generalElement){
+
+  render(generalElement) {
     const thisGeneral = this;
 
-    const generatedHTML = template.general;    
+    const generatedHTML = template.general;
 
-    thisGeneral.dom= {};
+    thisGeneral.dom = {};
     thisGeneral.dom.wrapper = generalElement;
-    thisGeneral.dom.wrapper.innerHTML = generatedHTML;    
+    thisGeneral.dom.wrapper.innerHTML = generatedHTML;
   }
+
   graph() {
     const ctx = document.getElementById('myChart').getContext('2d');
 
@@ -37,25 +39,25 @@ class  General{
           // 6
           data: [52, 51, 41, 94, 26, 6, 72, 9, 21, 88],
         },
-        {
-          label: 'FTD',
-          backgroundColor: '#F29E4E',
-          borderColor: '#F29E4E',
-          data: [6, 72, 1, 0, 47, 11, 50, 44, 63, 76],
-        },
-        {
-          label: 'Earned',
-          backgroundColor: '#71B374',
-          borderColor: '#71B374',
-          data: [59, 49, 68, 90, 67, 41, 13, 38, 48, 48],
-          // 7
-          hidden: true,
-        }]
+          {
+            label: 'FTD',
+            backgroundColor: '#F29E4E',
+            borderColor: '#F29E4E',
+            data: [6, 72, 1, 0, 47, 11, 50, 44, 63, 76],
+          },
+          {
+            label: 'Earned',
+            backgroundColor: '#71B374',
+            borderColor: '#71B374',
+            data: [59, 49, 68, 90, 67, 41, 13, 38, 48, 48],
+            // 7
+            hidden: true,
+          }]
       },
     });
     const visitSignups = e.legend.chart.config.data.datasets[0].data;
     let sumOfVisitSignups = 0;
-    for(let visitSignup of visitSignups){
+    for (let visitSignup of visitSignups) {
       sumOfVisitSignups += visitSignup;
     }
     const check = document.querySelector('.over1 p:nth-child(2)');

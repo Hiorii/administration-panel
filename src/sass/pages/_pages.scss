@@ -1,5 +1,5 @@
 #pages {
-  grid-column: 6/22;
+  grid-column: 5/21;
   grid-row: 2/29;
 }
 
@@ -8,6 +8,7 @@
   background-color: white;
   color: $links-color;
   padding: 1rem;
+  height: auto;
 }
 
 .links-wrapper {
@@ -58,8 +59,8 @@
   height: auto;
 }
 
-@media only screen and (max-width: 820px){
-  #pages {    
+@media only screen and (max-width: 820px) {
+  #pages {
     grid-row: 1/29;
-  }  
+  }
 }

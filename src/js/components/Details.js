@@ -1,12 +1,14 @@
-import  {template} from '../settings.js';
+import {select, template} from '../settings.js';
 
-class Details{
-  constructor(detailsElement){
+class Details {
+  constructor(detailsElement) {
     const thisDetails = this;
 
     thisDetails.render(detailsElement);
+    thisDetails.setDate();
   }
-  render(detailsElement){
+
+  render(detailsElement) {
     const thisDetails = this;
 
     const generatedHTML = template.details;
@@ -14,6 +16,14 @@ class Details{
     thisDetails.dom = {};
     thisDetails.dom.wrapper = detailsElement;
     thisDetails.dom.wrapper.innerHTML = generatedHTML;
+  }
+
+  setDate() {
+    const dateInputs = document.querySelectorAll(select.components.details.dateInput);
+
+    for (let dateInput of dateInputs) {
+      dateInput.valueAsDate = new Date();
+    }
   }
 }
 
